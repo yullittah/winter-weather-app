@@ -1,21 +1,25 @@
-import "./App.css";
+import logo from './logo.svg';
+import './App.css';
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <h1>weather app</h1>
-
-      <footer>
-        project is open sourced on{" "}
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
         <a
-          href="https://github.com/yullittah/winter-weather-app"
+          className="App-link"
+          href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github
-        </a>{" "}
-        coded by Yullittah
-      </footer>
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
+
+export default App;
