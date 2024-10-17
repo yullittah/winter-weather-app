@@ -1,0 +1,37 @@
+.app {
+  border: 2px solid #878787;
+  padding: 16px;
+  margin: 30px auto;
+  border-radius: 4px;
+}
+
+.app .ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px 0 0 0;
+  color: #878787;
+  display: block;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28.8px;
+  height: 28;
+  text-align: left;
+
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+.app li {
+  color: #878787;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 19px;
+  list-style: none;
+}
+
+.app .Temperature {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 64px;
+}
