@@ -32,12 +32,12 @@ export default function Weather() {
         <div className="col-6">
           <div className="clearfix">
             <img
-              className="float-left"
               src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
               alt="cloudy weather icon"
             />
+
             <span className="Temperature">15 </span>
-            <span className="Units">°C</span>
+            <span className="Units">°C{"  "}|{"  "}°F</span>
           </div>
         </div>
         <div className="col-6">
@@ -45,7 +45,6 @@ export default function Weather() {
             <li>Precipitation 15mm</li>
             <li>wind 10km/hr</li>
             <li>humidity 98%</li>
-            <li>Temperature 15°C</li>
           </ul>
         </div>
       </div>

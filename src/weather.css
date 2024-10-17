@@ -35,3 +35,15 @@ h1 {
   font-weight: 600;
   line-height: 64px;
 }
+
+img {
+  line-height: 100px;
+  margin-right: 10px;
+  width: 144px;
+}
+
+.app .Units {
+  position: relative;
+  top: -20px;
+  margin-left: 10px;
+}
