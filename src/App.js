@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <WeatherApp />
+      <WeatherApp city="tokyo" />
       <footer>
         coded by Yullittah and open sourced on{" "}
         <a
